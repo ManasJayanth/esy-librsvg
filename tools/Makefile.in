@@ -472,7 +472,7 @@ rsvg-dimensions$(EXEEXT): $(rsvg_dimensions_OBJECTS) $(rsvg_dimensions_DEPENDENC
 
 test-performance$(EXEEXT): $(test_performance_OBJECTS) $(test_performance_DEPENDENCIES) $(EXTRA_test_performance_DEPENDENCIES) 
 	@rm -f test-performance$(EXEEXT)
-	$(AM_V_CCLD)$(test_performance_LINK) $(test_performance_OBJECTS) $(test_performance_LDADD) $(LIBS)
+	$(AM_V_CCLD)$(test_performance_LINK) $(test_performance_OBJECTS) $(test_performance_LDADD) $(LIBS) $(FREETYPE2_LIB)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
