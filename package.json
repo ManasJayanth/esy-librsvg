@@ -13,7 +13,7 @@
     "buildEnv": {
       "PKG_CONFIG_PATH": "$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/pkgconfig",
       "LD_LIBRARY_PATH": "#{esy-fribidi.lib}:#{pcre.lib}:#{esy-freetype2.lib}:$LD_LIBRARY_PATH",
-      "FREETYPE2_LIB": "#{esy-freetype2.lib / 'libfreetype'}#{os == 'linux' ? '.so': '.dylib'}"
+      "FREETYPE2_LIB": "#{esy-freetype2.lib / 'libfreetype'}#{os == 'darwin' ? '.dylib': '.so'}"
     },
     "build": [
       "chmod 755 ./configure",
