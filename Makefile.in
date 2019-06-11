@@ -1003,7 +1003,7 @@ clean-binPROGRAMS:
 
 rsvg-convert$(EXEEXT): $(rsvg_convert_OBJECTS) $(rsvg_convert_DEPENDENCIES) $(EXTRA_rsvg_convert_DEPENDENCIES) 
 	@rm -f rsvg-convert$(EXEEXT)
-	$(AM_V_CCLD)$(rsvg_convert_LINK) $(rsvg_convert_OBJECTS) $(rsvg_convert_LDADD) $(LIBS)
+	$(AM_V_CCLD)$(rsvg_convert_LINK) $(rsvg_convert_OBJECTS) $(rsvg_convert_LDADD) $(LIBS) $(FREETYPE2_LIB)
 
 rsvg-view-3$(EXEEXT): $(rsvg_view_3_OBJECTS) $(rsvg_view_3_DEPENDENCIES) $(EXTRA_rsvg_view_3_DEPENDENCIES) 
 	@rm -f rsvg-view-3$(EXEEXT)
