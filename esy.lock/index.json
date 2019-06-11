@@ -1,0 +1,600 @@
+{
+  "checksum": "343a20b55eeac611f1488378a2d7a251",
+  "root": "esy-librsvg-2.40.20@link-dev:./package.json",
+  "node": {
+    "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9": {
+      "id":
+        "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9",
+      "name": "pkg-config",
+      "version":
+        "github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9": {
+      "id":
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+      "name": "pcre",
+      "version":
+        "github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9": {
+      "id":
+        "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
+      "name": "ninja",
+      "version":
+        "github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9": {
+      "id":
+        "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
+      "name": "meson",
+      "version":
+        "github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "libiconv@github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b@d41d8cd9": {
+      "id":
+        "libiconv@github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b@d41d8cd9",
+      "name": "libiconv",
+      "version":
+        "github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "glib@github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d@d41d8cd9": {
+      "id":
+        "glib@github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d@d41d8cd9",
+      "name": "glib",
+      "version":
+        "github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9",
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
+        "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
+        "libiconv@github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b@d41d8cd9",
+        "esy-gettext@github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be@d41d8cd9",
+        "@esy-ocaml/libffi@github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9": {
+      "id":
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9",
+      "name": "esy-zlib",
+      "version":
+        "github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9": {
+      "id":
+        "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9",
+      "name": "esy-texinfo",
+      "version":
+        "github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-ragel@github:esy-packages/esy-ragel#7f949da4066f399051d9ec6a813773d0eabb036a@d41d8cd9": {
+      "id":
+        "esy-ragel@github:esy-packages/esy-ragel#7f949da4066f399051d9ec6a813773d0eabb036a@d41d8cd9",
+      "name": "esy-ragel",
+      "version":
+        "github:esy-packages/esy-ragel#7f949da4066f399051d9ec6a813773d0eabb036a",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-ragel#7f949da4066f399051d9ec6a813773d0eabb036a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9": {
+      "id":
+        "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9",
+      "name": "esy-python",
+      "version":
+        "github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9",
+        "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-pixman@github:esy-packages/esy-pixman#c23d29008247aeed69e20df4efc830906d553ff5@d41d8cd9": {
+      "id":
+        "esy-pixman@github:esy-packages/esy-pixman#c23d29008247aeed69e20df4efc830906d553ff5@d41d8cd9",
+      "name": "esy-pixman",
+      "version":
+        "github:esy-packages/esy-pixman#c23d29008247aeed69e20df4efc830906d553ff5",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-pixman#c23d29008247aeed69e20df4efc830906d553ff5"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-pango@github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565@d41d8cd9": {
+      "id":
+        "esy-pango@github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565@d41d8cd9",
+      "name": "esy-pango",
+      "version":
+        "github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
+        "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
+        "glib@github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d@d41d8cd9",
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+        "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9",
+        "esy-harfbuzz@github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda@d41d8cd9",
+        "esy-fribidi@github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8@d41d8cd9",
+        "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9",
+        "esy-fontconfig@github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222@d41d8cd9",
+        "esy-cairo@github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-nasm@github:prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a@d41d8cd9": {
+      "id":
+        "esy-nasm@github:prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a@d41d8cd9",
+      "name": "esy-nasm",
+      "version":
+        "github:prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9": {
+      "id":
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
+      "name": "esy-libxml2",
+      "version":
+        "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-librsvg-2.40.20@link-dev:./package.json": {
+      "id": "esy-librsvg-2.40.20@link-dev:./package.json",
+      "name": "esy-librsvg-2.40.20",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "glib@github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d@d41d8cd9",
+        "esy-pango@github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565@d41d8cd9",
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
+        "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9",
+        "esy-gdk-pixbuf@github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988@d41d8cd9",
+        "esy-cairo@github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9": {
+      "id":
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+      "name": "esy-libpng",
+      "version":
+        "github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-libjpeg@github:prometheansacrifice/libjpeg-turbo#50e8e32c48fbe3494a7b8403d019bcb3bd2a9d9b@d41d8cd9": {
+      "id":
+        "esy-libjpeg@github:prometheansacrifice/libjpeg-turbo#50e8e32c48fbe3494a7b8403d019bcb3bd2a9d9b@d41d8cd9",
+      "name": "esy-libjpeg",
+      "version":
+        "github:prometheansacrifice/libjpeg-turbo#50e8e32c48fbe3494a7b8403d019bcb3bd2a9d9b",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/libjpeg-turbo#50e8e32c48fbe3494a7b8403d019bcb3bd2a9d9b"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-nasm@github:prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a@d41d8cd9",
+        "esy-cmake@github:prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1@d41d8cd9",
+        "@esy-cross/ninja-build@1.8.2001@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9": {
+      "id":
+        "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9",
+      "name": "esy-libffi",
+      "version":
+        "github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-harfbuzz@github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda@d41d8cd9": {
+      "id":
+        "esy-harfbuzz@github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda@d41d8cd9",
+      "name": "esy-harfbuzz",
+      "version":
+        "github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "glib@github:prometheansacrifice/esy-glib#b133b09d13178143e2ad916f7ee10ce88695be9d@d41d8cd9",
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9",
+        "esy-ragel@github:esy-packages/esy-ragel#7f949da4066f399051d9ec6a813773d0eabb036a@d41d8cd9",
+        "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9",
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+        "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-gperf@github:prometheansacrifice/esy-gperf#611c95170bd59aedb26adb500a08c97bd2112981@d41d8cd9": {
+      "id":
+        "esy-gperf@github:prometheansacrifice/esy-gperf#611c95170bd59aedb26adb500a08c97bd2112981@d41d8cd9",
+      "name": "esy-gperf",
+      "version":
+        "github:prometheansacrifice/esy-gperf#611c95170bd59aedb26adb500a08c97bd2112981",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-gperf#611c95170bd59aedb26adb500a08c97bd2112981"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-glib@github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6@d41d8cd9": {
+      "id":
+        "esy-glib@github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6@d41d8cd9",
+      "name": "esy-glib",
+      "version":
+        "github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9",
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
+        "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
+        "libiconv@github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b@d41d8cd9",
+        "esy-gettext@github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be@d41d8cd9",
+        "@esy-ocaml/libffi@github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-gettext@github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be@d41d8cd9": {
+      "id":
+        "esy-gettext@github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be@d41d8cd9",
+      "name": "esy-gettext",
+      "version":
+        "github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-gdk-pixbuf@github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988@d41d8cd9": {
+      "id":
+        "esy-gdk-pixbuf@github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988@d41d8cd9",
+      "name": "esy-gdk-pixbuf",
+      "version":
+        "github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
+        "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
+        "libiconv@github:prometheansacrifice/esy-libiconv#90beb704ffc6e9fa0f59a28dee153136e330462b@d41d8cd9",
+        "esy-libjpeg@github:prometheansacrifice/libjpeg-turbo#50e8e32c48fbe3494a7b8403d019bcb3bd2a9d9b@d41d8cd9",
+        "esy-glib@github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-fribidi@github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8@d41d8cd9": {
+      "id":
+        "esy-fribidi@github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8@d41d8cd9",
+      "name": "esy-fribidi",
+      "version":
+        "github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9": {
+      "id":
+        "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9",
+      "name": "esy-freetype2",
+      "version":
+        "github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9",
+        "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9",
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+        "esy-harfbuzz@github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda@d41d8cd9",
+        "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-fontconfig@github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222@d41d8cd9": {
+      "id":
+        "esy-fontconfig@github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222@d41d8cd9",
+      "name": "esy-fontconfig",
+      "version":
+        "github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9",
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+        "esy-gperf@github:prometheansacrifice/esy-gperf#611c95170bd59aedb26adb500a08c97bd2112981@d41d8cd9",
+        "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9",
+        "esy-expat@github:esy-packages/esy-expat#d17ff889986311c3e80cae4187be42900f88c7d3@d41d8cd9",
+        "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-expat@github:esy-packages/esy-expat#d17ff889986311c3e80cae4187be42900f88c7d3@d41d8cd9": {
+      "id":
+        "esy-expat@github:esy-packages/esy-expat#d17ff889986311c3e80cae4187be42900f88c7d3@d41d8cd9",
+      "name": "esy-expat",
+      "version":
+        "github:esy-packages/esy-expat#d17ff889986311c3e80cae4187be42900f88c7d3",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-expat#d17ff889986311c3e80cae4187be42900f88c7d3"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-cmake@github:prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1@d41d8cd9": {
+      "id":
+        "esy-cmake@github:prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1@d41d8cd9",
+      "name": "esy-cmake",
+      "version":
+        "github:prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-cairo@github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8@d41d8cd9": {
+      "id":
+        "esy-cairo@github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8@d41d8cd9",
+      "name": "esy-cairo",
+      "version":
+        "github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "pcre@github:esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e@d41d8cd9",
+        "esy-pixman@github:esy-packages/esy-pixman#c23d29008247aeed69e20df4efc830906d553ff5@d41d8cd9",
+        "esy-libpng@github:esy-packages/esy-libpng#d846df4a8547b3299c7627773008bd97543d7048@d41d8cd9",
+        "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9",
+        "esy-fontconfig@github:prometheansacrifice/esy-fontconfig#9f874154f68ffdea5121d09b12ff5ec6edc6c222@d41d8cd9",
+        "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9": {
+      "id":
+        "esy-bzip2@github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028@d41d8cd9",
+      "name": "esy-bzip2",
+      "version":
+        "github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-bzip2#048f314334ae2e63b24082a7e4cfca4985b04028"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "@esy-ocaml/libffi@github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384@d41d8cd9": {
+      "id":
+        "@esy-ocaml/libffi@github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384@d41d8cd9",
+      "name": "@esy-ocaml/libffi",
+      "version":
+        "github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/libffi#9f60bed74b01fefb5f26b49806108cdfe0ed6384"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "@esy-cross/ninja-build@1.8.2001@d41d8cd9": {
+      "id": "@esy-cross/ninja-build@1.8.2001@d41d8cd9",
+      "name": "@esy-cross/ninja-build",
+      "version": "1.8.2001",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@esy-cross/ninja-build/-/ninja-build-1.8.2001.tgz#sha1:d223b3b9e73e14ef2f241ddc522fa330f94b8602"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}
