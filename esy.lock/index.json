@@ -1,5 +1,5 @@
 {
-  "checksum": "343a20b55eeac611f1488378a2d7a251",
+  "checksum": "2ef213331692b2187b6dfde29985836c",
   "root": "esy-librsvg-2.40.20@link-dev:./package.json",
   "node": {
     "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9": {
@@ -269,7 +269,10 @@
         "esy-pango@github:prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565@d41d8cd9",
         "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
         "esy-libffi@github:esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa@d41d8cd9",
+        "esy-libcroco@github:prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f@d41d8cd9",
         "esy-gdk-pixbuf@github:prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988@d41d8cd9",
+        "esy-fribidi@github:prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8@d41d8cd9",
+        "esy-freetype2@github:prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b@d41d8cd9",
         "esy-cairo@github:prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8@d41d8cd9"
       ],
       "devDependencies": []
@@ -326,6 +329,24 @@
       },
       "overrides": [],
       "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-libcroco@github:prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f@d41d8cd9": {
+      "id":
+        "esy-libcroco@github:prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f@d41d8cd9",
+      "name": "esy-libcroco",
+      "version":
+        "github:prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9"
+      ],
       "devDependencies": []
     },
     "esy-harfbuzz@github:prometheansacrifice/esy-harfbuzz#ebea69d3c3b72a3e7a716751b9fa11be701bafda@d41d8cd9": {

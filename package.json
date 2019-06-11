@@ -12,7 +12,7 @@
     },
     "buildEnv": {
       "PKG_CONFIG_PATH": "$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/pkgconfig",
-      "LD_LIBRARY_PATH": "#{pcre.lib}:#{esy-freetype2.lib}:$LD_LIBRARY_PATH"
+      "LD_LIBRARY_PATH": "#{esy-fribidi.lib}:#{pcre.lib}:#{esy-freetype2.lib}:$LD_LIBRARY_PATH"
     },
     "build": [
       "chmod 755 ./configure",
@@ -28,6 +28,7 @@
     "esy-freetype2": "prometheansacrifice/esy-freetype2#3b4ec35325670f1a767362bb5e318897da86629b",
     "esy-cairo": "prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8",
     "esy-libffi": "esy-ocaml/libffi#599bc3567ecf839240977b6d9aaf0b80f983b5aa",
+    "esy-fribidi": "prometheansacrifice/esy-fribidi#b9e5eb1da7057693742af75cf98a0db2cce083a8",
     "esy-pango": "prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565",
     "esy-cairo": "prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8",
     "esy-gdk-pixbuf": "prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988",
