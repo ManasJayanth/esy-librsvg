@@ -10,6 +10,9 @@
         "val": "#{self.lib / 'pkgconfig' : $PKG_CONFIG_PATH }"
       }
     },
+    "buildEnv": {
+      "PKG_CONFIG_PATH": "$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/pkgconfig"
+    },
     "build": [
       "chmod 755 ./configure",
       "./configure --disable-pixbuf-loader --disable-Bsymbolic --enable-introspection=no --prefix=#{self.install} #{os == 'windows' ? '--host=x86_64-w64-mingw32' : ''}",
@@ -25,7 +28,8 @@
     "esy-pango": "prometheansacrifice/esy-pango#fb900633684904e394c42d92af127ed64dee8565",
     "esy-cairo": "prometheansacrifice/esy-cairo#fd3e0f12ddc06b6cf6237c486be4c5475cf980f8",
     "esy-gdk-pixbuf": "prometheansacrifice/esy-gdk-pixbuf#cb4006d3cabd5b32dafab8ba4af12f58aa3d3988",
-    "pcre": "esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e"
+    "pcre": "esy-packages/esy-pcre#c5076c8facbebaf5f5718c0e270418fd218add7e",
+    "esy-libcroco": "prometheansacrifice/esy-libcroco#519e52518c03904abd47957dbe682993990f0c6f"
   },
   "resolutions": {
     "esy-gettext": "prometheansacrifice/esy-gettext#d1abfd44b560c36b02e06e5393b8e3b64d8c96be"
