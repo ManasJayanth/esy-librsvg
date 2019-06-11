@@ -468,7 +468,7 @@ clean-noinstPROGRAMS:
 
 rsvg-dimensions$(EXEEXT): $(rsvg_dimensions_OBJECTS) $(rsvg_dimensions_DEPENDENCIES) $(EXTRA_rsvg_dimensions_DEPENDENCIES) 
 	@rm -f rsvg-dimensions$(EXEEXT)
-	$(AM_V_CCLD)$(rsvg_dimensions_LINK) $(rsvg_dimensions_OBJECTS) $(rsvg_dimensions_LDADD) $(LIBS)
+	$(AM_V_CCLD)$(rsvg_dimensions_LINK) $(rsvg_dimensions_OBJECTS) $(rsvg_dimensions_LDADD) $(LIBS) $(FREETYPE2_LIB)
 
 test-performance$(EXEEXT): $(test_performance_OBJECTS) $(test_performance_DEPENDENCIES) $(EXTRA_test_performance_DEPENDENCIES) 
 	@rm -f test-performance$(EXEEXT)
